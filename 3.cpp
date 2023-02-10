@@ -11,6 +11,7 @@ void display1()
 	glPushMatrix();
 	glLoadIdentity();
 	
+	glRotatef(spin,0,0,1);
 	glBegin(GL_POLYGON);
 	glColor3f(1.0, 0.0, 0.0);
 	glVertex3f(-0.25, -0.25, 0.25);
